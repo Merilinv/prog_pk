@@ -1,0 +1,33 @@
+javac tervitus.java
+tervitus.java:1: error: class Tervitus is public, should be declared in a file named Tervitus.java
+public class Tervitus{
+       ^
+1 error  - viga, sest koodis oli Tervitus suure tähega, aga faili nimi oli väiksega
+_______________
+
+Kompilleerimine
+
+ javac Arvutus.java
+
+_______________
+
+Käivitamine: 
+
+[merivor@greeny tund1]$ java Arvutus
+täispilet
+õnne!
+õnne!
+õnne!
+õnne!
+õnne!
+
+
+
+main- programmi nimi
+argumendid- saab käsu sisse anda
+void - funktsiooni tagastaja
+static - varasemalt kompilleeritud programmi jupp, mida saab käivitada
+public - käsuõiguse jaoks, et ei tekiks probleeme prog. käivitamiseks
+class - järgneb programmi nimi
+parseInt - numbriväärtusega stringid -> int-iks
+println - print line
