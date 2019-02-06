@@ -21,13 +21,25 @@ täispilet
 õnne!
 õnne!
 
-
-
+___________________
 main- programmi nimi
 argumendid- saab käsu sisse anda
 void - funktsiooni tagastaja
 static - varasemalt kompilleeritud programmi jupp, mida saab käivitada
 public - käsuõiguse jaoks, et ei tekiks probleeme prog. käivitamiseks
-class - järgneb programmi nimi
+class - järgneb programmi nimi (suure tähega)
 parseInt - numbriväärtusega stringid -> int-iks
 println - print line
+
+_________________
+Giti pushimine 'https://Merilinv@github.com':
+
+git config user.name Merilinv
+git add .
+git commit -m "esimene"
+git push
+
+_________________
+Esimene kodutöö
+https://github.com/prpohi19/
+http://minitorn.tlu.ee/~jaagup/kool/java/kursused/19/prpohi/juht.html
