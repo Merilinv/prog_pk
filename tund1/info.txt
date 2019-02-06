@@ -32,6 +32,8 @@ parseInt - numbriväärtusega stringid -> int-iks
 println - print line
 
 _________________
+*git clone https://Merilinv@github.com/Merilinv/prog_pk
+
 Giti pushimine 'https://Merilinv@github.com':
 
 git config user.name Merilinv
@@ -43,3 +45,23 @@ _________________
 Esimene kodutöö
 https://github.com/prpohi19/
 http://minitorn.tlu.ee/~jaagup/kool/java/kursused/19/prpohi/juht.html
+
+_________________
+//for-tsükkel:
+		int suurim = 0;
+		for(int i=0; i<andmed.length; i++){
+			if (andmed[i] > suurim){
+				suurim = andmed[i];
+			}
+		} 
+		return suurim;
+
+//while-tsükkel:
+		if(andmed.length==0){return -1;}
+		int suurim=andmed[0];
+		int koht=1;
+		while(koht<andmed.length){
+			if(andmed[koht]>suurim){suurim=andmed[koht];}
+			koht++;
+		}
+		return suurim;
